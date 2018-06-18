@@ -15,5 +15,6 @@ A simple example of how to use TensorFlow to solve MNIST using a Convnet
  
  Usage:
  -------
- unizp "mnist_test.zip" & "mnist_train.zip" (same folder)
- run "run_model.py"
+ 1) unizp "mnist_test.zip" & "mnist_train.zip" (same folder)
+ 
+ 2) run "run_model.py"
