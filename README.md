@@ -11,7 +11,7 @@ A simple example of how to use TensorFlow to solve MNIST using a Convnet
  -------
  - The raw MNIST data (in CSV format) was downloaded from [here](https://pjreddie.com/projects/mnist-in-csv/)
  - Some of the code was inspired by the excellent tutorials from [here](https://github.com/Hvass-Labs/TensorFlow-Tutorials), which I highly recommend.
- - The parsing and extracting of data in this example was done using pandas and numpy. All the datasets are processed and kept in-memory during the run of the model. This method, while very convenient to use, is not the most efficient one and is suited for small to medium datasets. For databases larger than what can be held in memory, an iterator is required (more info on TF iterators can be found [here](https://www.tensorflow.org/versions/master/programmers_guide/datasets#creating_an_iterator))
+ - The parsing and extracting of data in this example was done using pandas and numpy. All the datasets are processed and kept in-memory during the run of the model. This method, while very convenient to use, is not the most efficient one and is suited for small to medium datasets. For datsests larger than what can be held in memory, an iterator is required (more info on TF iterators can be found [here](https://www.tensorflow.org/versions/master/programmers_guide/datasets#creating_an_iterator))
  
  Usage:
  -------
